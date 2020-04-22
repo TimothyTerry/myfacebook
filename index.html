@@ -1,11 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+
+        body {
+            background-color: lightslategrey;
+            margin: 0 auto;
+            height: 55px;
+            width: 850px;
+
+        }
+
+        .header {
+            display: block;
+            background-color: lightskyblue;
+            width: 850px;
+            height: 350px;
+            margin: 0 auto;
+            border: 1px solid black;
+
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        .navbar {
+            background-color: green;
+            display: inline-block;
+            height: 55px;
+            width: 850px;
+            margin: 0 auto;
+            border: 1px solid black;
+        }
+
+        .profilepic {
+            background: purple;
+            width: 170px;
+            height: 175px;
+            position: relative;
+            left: 50px;
+            bottom: 200px;
+            border: 1px solid black;
+            border-radius: 2px;
+        }
+
+        li {
+            margin: 0 auto;
+            list-style-type: none;
+            padding: 3px;
+            text-transform: uppercase;
+            font-weight: bold;
+            position: relative;
+            float: right;
+            padding-left: 88px;
+        }
+
+
+        ol:hover,
+        ul:hover {
+            color: rgb(214, 36, 36);
+        }
+
+        .leftc {
+            background-color:yellow;
+            height: 25px;
+            width: 328px;
+            border: 1px solid black;
+            float: left;
+          
+        }
+
+        .rightc {
+            background-color: rgb(25, 65, 25);
+            height: 25px;
+            width: 512px;
+            border: 1px solid black;
+
+            float: right;
+        }
+
+        .dualc {
+            margin: 0 auto;
+            width: 850px;
+            padding-bottom: 110px;
+
+
+        }
+
+        .buttons {
+            position: relative;
+            top: 300px;
+            float: right;
+            padding: 5px;
+        }
+
+        h2 {
+            border: 1px solid black;
+
+
+        }
+
+        
+        .leftc #leftcc {
+                    text-align: center;
+                    position: relative;
+        }
+        
+
+
+        
+
+        .content {
+            background-color: rgb(25, 65, 25);
+            height: 125px;
+            width: 328px;
+            border: 1px solid black;
+            float: left;
+
+        }
+    </style>
 </head>
+
 <body>
-    
+
+
+
+    <div class="header">
+        <div class="buttons">
+            <ol>
+                <button type="button">&#128077</button>
+                <button type="button">Follow</button>
+                <button type="button">✉</button>
+                <button type="button">Click Me!</button>
+            </ol>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <div class="navbuttons">
+            <ul>
+                <li><a href="button">Home</a></li>
+                <li><a href="news.asp">News</a></li>
+                <li><a href="contact.asp">Contact</a></li>
+                <li><a href="about.asp">About</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="profilepic"></div>
+
+    <div class="dualc">
+
+        <div class="leftc">
+
+            <h5 id="leftcc">About My Page</h5>
+            <div class="row">
+                <div class="1column" style="background-color:#aaa;">
+                    <h2>Column 1</h2>
+                    <p>Some text..</p>
+                </div>
+                <div class="2column" style="background-color:#bbb;">
+                    <h2>Column 2</h2>
+                    <p>Some text..</p>
+                </div>
+                <div class="3column" style="background-color:#ccc;">
+                    <h2>Column 3</h2>
+                    <p>Some text..</p>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="rightc">
+            <div class="Comments"></div>
+            <div class="Friends "></div>
+            <div class="Pictures"></div>
+
+
+        </div>
+
+    </div>
 </body>
+
 </html>
